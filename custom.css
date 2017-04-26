@@ -1,5 +1,20 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #EBDCB2 center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.jumbotron{
+background:#2E2300 center;
+background-size: cover;
+color: white;
+}
+
 footer {
-    background-color: #f2f2f2;
+    background-color: #A1D6E2 ;
     padding: 25px;
 }
 
@@ -8,6 +23,7 @@ footer {
     /* Set width to 100% */
     margin: auto;
     min-height: 200px;
+    box-shadow: #1995AD 10px 10px;
 }
 
 @media (max-width: 600px) {
