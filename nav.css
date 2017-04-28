@@ -13,12 +13,12 @@
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
+    color: green !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: black !important;
-    background-color: #fff !important;
+    color: green !important;
+    background-color: #000 !important;
 }
 
 .navbar-default .navbar-toggle {
