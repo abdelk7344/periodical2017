@@ -2,19 +2,20 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background: #EBDCB2 center;
+  background: #6FB98F center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 .jumbotron{
-background:#2E2300 center;
+background:#004445 center;
 background-size: cover;
 color: white;
 }
 
 footer {
-    background-color: #A1D6E2 ;
+    background-color: #004445 ;
+    color: white;
     padding: 25px;
 }
 
