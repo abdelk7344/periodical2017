@@ -1,7 +1,7 @@
 
 .navbar {
     margin-bottom: 0;
-    background-color: #222;
+    background-color: #003B46 ;
     border-color:#080808;
     z-index: 9999;
     border: 0;
@@ -13,15 +13,15 @@
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: green !important;
+    color: gray !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: green !important;
-    background-color: #000 !important;
+    color: white !important;
+    background-color: gray !important;
 }
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    color: #fff !important;
+    color: #FFC !important;
 }

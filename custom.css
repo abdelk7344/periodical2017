@@ -2,13 +2,13 @@ html,
 body {
   width: 100%;
   height: 100%;
-  background: #6FB98F center;
+  background: #C4DEF6 center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 .jumbotron{
-background:#004445 center;
+background:#07575B center;
 background-size: cover;
 color: white;
 }
