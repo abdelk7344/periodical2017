@@ -18,18 +18,17 @@
   <link rel="stylesheet" href="custom.css">
   <link rel="stylesheet" href="nav.css">
   <script src="script.js"></script>
-    <script>
-     $(function() {
-        $('#nav li a').click(function() {
-           $('#nav li').removeClass();
-           $($(this).attr('href')).addClass('active');
-        });
-     });
+  <script>
+    $(function() {
+      $('#nav li a').click(function() {
+        $('#nav li').removeClass();
+        $($(this).attr('href')).addClass('active');
+      });
+    });
   </script>
 </head>
 
 <body>
-
   <nav class="navbar">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -38,7 +37,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-        <a class="navbar-brand" id="white"  href="index.html">Periodical2017</a></span>
+        <a class="navbar-brand" id="white" href="index.html">Periodical2017</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -71,104 +70,79 @@
               <li><a href="entertainment/entertainmentFive.html">Entertainment 5</a></li>
             </ul>
           </li>
-          
           <li><a href="#">About Us</a></li>
           <li><a href="#">Contact Us</a></li>
-          
         </ul>
-        
       </div>
     </div>
   </nav>
-
   <div class="jumbotron">
     <div class="container text-center">
       <h1>Periodical2017</h1>
       <p>A publication of the AP Chemistry class @ HSTAT</p>
     </div>
   </div>
-
-  <div class="container-fluid bg-3 text-center" id="articles">
-    <h3>ARTICLES</h3><br>
-    <div class="row">
-      <div class="col-sm-offset-1 col-sm-2">
-        <p>ONE</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+  <div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+      <!-- Carousel indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <!-- Wrapper for carousel items -->
+      <div class="carousel-inner">
+        <div class="active item">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=20&txt=IMAGE&w=900&h=350&txttrack=0" alt="First Slide">
+          <div class="carousel-caption">
+            <h3>First slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=20&txt=IMAGE&w=900&h=350&txttrack=0" alt="Second Slide">
+          <div class="carousel-caption">
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=20&txt=IMAGE&w=900&h=350&txttrack=0" alt="Third Slide">
+          <div class="carousel-caption">
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=20&txt=IMAGE&w=900&h=350&txttrack=0" alt="Second Slide">
+          <div class="carousel-caption">
+            <h3>Fourth slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="https://placeholdit.imgix.net/~text?txtsize=20&txt=IMAGE&w=900&h=350&txttrack=0" alt="Second Slide">
+          <div class="carousel-caption">
+            <h3>Fifth slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-2">
-        <p>TWO</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-2">
-        <p>THREE</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-2">
-        <p>FOUR</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-2">
-        <p>FIVE</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
+      <!-- Carousel controls -->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
     </div>
-  </div><br>
+  </div>
 
-  <div class="container-fluid bg-3 text-center " id="bio">
-    <h3>BIOGRAPHIES</h3><br>
-    <div class="row">
-      <div class="col-sm-offset-1 col-sm-2">
-        <p>ONE</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-2">
-        <p>TWO</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-2">
-        <p>THREE</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-2">
-        <p>FOUR</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-2">
-        <p>FIVE</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-    </div>
-  </div><br>
-  
-  <div class="container-fluid bg-3 text-center" id="entertainment">
-    <h3>ENTERTAINMENT</h3><br>
-    <div class="row">
-      <div class="col-sm-offset-1 col-sm-2">
-        <p>ONE</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-2">
-        <p>TWO</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-2">
-        <p>THREE</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-2">
-        <p>FOUR</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-2">
-        <p>FIVE</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-    </div>
-  </div><br><br>
-
-  <footer class="container-fluid text-center">
-    <p>Footer Text</p>
-  </footer>
+  <!--<footer class="container-fluid text-center">-->
+  <!--  <p>Footer Text</p>-->
+  <!--</footer>-->
 
 </body>
 

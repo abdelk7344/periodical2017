@@ -1,21 +1,22 @@
 html,
 body {
-  width: 100%;
-  height: 100%;
-  background: #C4DEF6 center;
-  /*background: linear-gradient(#457fca,#5691c8) center;*/
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.jumbotron{
-background:#07575B center;
-background-size: cover;
-color: white;
+    width: 100%;
+    height: 100%;
+    background: #C4DEF6 center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
+.jumbotron {
+    background: #07575B center;
+    color: white;
+}
+.bs-example {
+    height: 500px;
+}
 footer {
-    background-color: #004445 ;
+    background-color: #004445;
     color: white;
     padding: 25px;
 }
@@ -33,15 +34,19 @@ footer {
         display: none;
     }
 }
-#bio{
-    background-color: white; 
+
+#bio {
+    background-color: white;
 }
-#articles{
-    background-color: blac;
+
+#articles {
+    background-color: black;
 }
-#entertainment{
+
+#entertainment {
     background-color: #C4DEF6;
 }
-.container-fluid{
+
+.container-fluid {
     padding-bottom: 30px;
 }
