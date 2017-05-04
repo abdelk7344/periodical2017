@@ -13,7 +13,7 @@
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: gray !important;
+    color: white !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -24,4 +24,8 @@
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #FFC !important;
+}
+
+.icon-bar {
+    background-color: white;
 }
