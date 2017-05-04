@@ -13,7 +13,7 @@
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: white !important;
+    /*color: white !important;*/
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
@@ -28,4 +28,10 @@
 
 .icon-bar {
     background-color: white;
+}
+.navbar-nav>li>a{
+    color:white;
+}
+#white{
+    color:white;
 }

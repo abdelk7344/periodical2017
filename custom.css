@@ -3,6 +3,7 @@ body {
   width: 100%;
   height: 100%;
   background: #C4DEF6 center;
+  /*background: linear-gradient(#457fca,#5691c8) center;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -31,4 +32,7 @@ footer {
     .carousel-caption {
         display: none;
     }
+}
+#articles{
+    background-color: white; 
 }
