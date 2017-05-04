@@ -33,6 +33,15 @@ footer {
         display: none;
     }
 }
-#articles{
+#bio{
     background-color: white; 
+}
+#articles{
+    background-color: blac;
+}
+#entertainment{
+    background-color: #C4DEF6;
+}
+.container-fluid{
+    padding-bottom: 30px;
 }
