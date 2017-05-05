@@ -2,10 +2,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background: #C4DEF6 center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background: #C4DEF6;
 }
 
 .jumbotron {
@@ -13,20 +10,66 @@ body {
     color: white;
 }
 
-.carousel {
-    width: 100%;
-    height: 650px;
+body {
+    padding-top: 50px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-.carousel-inner>.item>img {
-    width: 100%;
-    height: 0px;
+.img-portfolio {
+    margin-bottom: 30px;
 }
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Footer Styles */
 
 footer {
+    margin: 50px 0;
     background-color: #004445;
     color: white;
     padding: 25px;
+}
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+    header.carousel .carousel {
+        height: 70%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -57,4 +100,9 @@ footer {
 .carousel-inner>.item>a>img {
     width: 100%;
     margin: auto;
+}
+
+.panel-body p,
+.well p {
+    color: black;
 }
