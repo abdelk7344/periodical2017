@@ -21,14 +21,6 @@ footer {
     padding: 25px;
 }
 
-.carousel-inner img {
-    width: 100%;
-    /* Set width to 100% */
-    margin: auto;
-    min-height: 200px;
-    box-shadow: #1995AD 10px 10px;
-}
-
 @media (max-width: 600px) {
     .carousel-caption {
         display: none;
@@ -46,7 +38,13 @@ footer {
 #entertainment {
     background-color: #C4DEF6;
 }
-
-.container-fluid {
-    padding-bottom: 30px;
+.container{
+    width: 100%;
+    background: #07575B center;
+    color: white;
+}
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  width: 100%;
+  margin: auto;
 }

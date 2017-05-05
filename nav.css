@@ -11,11 +11,6 @@
     border-radius: 0;
      font-family: Montserrat, sans-serif;
 }
-
-.navbar li a, .navbar .navbar-brand {
-    /*color: white !important;*/
-}
-
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: white !important;
     background-color: gray !important;
