@@ -12,9 +12,17 @@ body {
     background: #07575B center;
     color: white;
 }
-.bs-example {
-    height: 500px;
+
+.carousel {
+    width: 100%;
+    height: 650px;
 }
+
+.carousel-inner>.item>img {
+    width: 100%;
+    height: 0px;
+}
+
 footer {
     background-color: #004445;
     color: white;
@@ -38,13 +46,15 @@ footer {
 #entertainment {
     background-color: #C4DEF6;
 }
-.container{
+
+.container {
     width: 100%;
     background: #07575B center;
     color: white;
 }
+
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img {
-  width: 100%;
-  margin: auto;
+    width: 100%;
+    margin: auto;
 }
