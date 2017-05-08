@@ -6,7 +6,7 @@ body {
 }
 
 .jumbotron {
-    background: #07575B center;
+    background: white center;
     color: white;
 }
 
@@ -48,7 +48,6 @@ header.carousel .fill {
 
 footer {
     margin: 50px 0;
-    background-color: #004445;
     color: white;
     padding: 25px;
 }
@@ -92,7 +91,7 @@ footer {
 
 .container {
     width: 100%;
-    background: #07575B center;
+    background: #19A1FF center;
     color: white;
 }
 
