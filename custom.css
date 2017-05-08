@@ -2,17 +2,16 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: #19A1FF;
+    background-color: #07575B;
 }
 
 .jumbotron {
-    background: white center;
+    background: #66A5AD center;
     color: white;
 }
 
 body {
     padding-top: 50px;
-    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .img-portfolio {
@@ -50,6 +49,8 @@ footer {
     margin: 50px 0;
     color: white;
     padding: 25px;
+    background-color: #66A5AD;
+    box-shadow: 5px 5px #c4dfe6;
 }
 
 
@@ -77,21 +78,8 @@ footer {
     }
 }
 
-#bio {
-    background-color: white;
-}
-
-#articles {
-    background-color: black;
-}
-
-#entertainment {
-    background-color: #C4DEF6;
-}
-
 .container {
     width: 100%;
-    background: #19A1FF center;
     color: white;
 }
 
@@ -104,4 +92,8 @@ footer {
 .panel-body p,
 .well p {
     color: black;
+}
+
+#welcomeToHstat {
+    background-color: #07575B;
 }
