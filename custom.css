@@ -52,7 +52,10 @@ footer {
     background-color: #66A5AD;
     box-shadow: 5px 5px #c4dfe6;
 }
-
+.page-header{
+     background-color: #66A5AD;
+    box-shadow: 5px 5px #c4dfe6;
+}
 
 /* Responsive Styles */
 
