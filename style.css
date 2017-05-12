@@ -2,7 +2,16 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: #07575B;
+    /*background-color: #07575B;*/
+}
+
+h2 {
+    margin: 40px;
+}
+
+.blueBorder{
+    border-top: 3px solid #66A5AD;
+    width: 75%;
 }
 
 .jumbotron {
@@ -11,17 +20,24 @@ body {
     color: white;
 }
 
+
 /*body {*/
+
+
 /*    padding-top: 50px;*/
+
+
 /*}*/
-.divider{
+
+.divider {
     padding: 30px;
 }
 
-.img-circle{
+.img-circle {
     margin: 40px;
 }
-.text-muted{
+
+.text-muted {
     color: #66A5AD;
 }
 
@@ -110,8 +126,13 @@ footer {
     color: black;
 }
 
+
 /*#welcomeToHstat {*/
+
+
 /*    background-color: #07575B;*/
+
+
 /*}*/
 
 .col-sm-4 {
@@ -153,12 +174,6 @@ body {
     padding: 120px 0;
 }
 
-.headline h1 {
-    font-size: 130px;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.9);
-}
-
 .headline h2 {
     font-size: 77px;
     background: #fff;
@@ -196,7 +211,7 @@ footer {
 }
 
 @media(max-width:1200px) {
-    .headline h1 {
+    h1 {
         font-size: 140px;
     }
     .headline h2 {
@@ -217,7 +232,7 @@ footer {
 }
 
 @media(max-width:991px) {
-    .headline h1 {
+    h1 {
         font-size: 105px;
     }
     .headline h2 {
@@ -253,7 +268,7 @@ footer {
 }
 
 @media(max-width:668px) {
-    .headline h1 {
+    h1 {
         font-size: 70px;
     }
     .headline h2 {
@@ -268,8 +283,8 @@ footer {
     .headline {
         padding: 75px 0 25px 0;
     }
-    .headline h1 {
-        font-size: 60px;
+    h1 {
+        font-size: 90px;
     }
     .headline h2 {
         font-size: 30px;
@@ -292,5 +307,3 @@ footer {
         margin-left: 0;
     }
 }
-
-
