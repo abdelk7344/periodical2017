@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
   <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -17,8 +18,51 @@
   <!--custom-->
   <link rel="stylesheet" href="custom.css">
   <link rel="stylesheet" href="nav.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet"> 
-<script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+  <script src="script.js"></script>
+  <script>
+    $(function() {
+      var firstLock = false;
+      var secondLock = false;
+      var thirdLock = false;
+
+      $(".first").click(function() {
+        $(this).effect("shake");
+        firstLock = true;
+        thirdLock = false;
+        console.log("Lock 1 = " + firstLock);
+        console.log("Lock 2 = " + secondLock);
+        console.log("Lock 3 = " + thirdLock);
+      });
+
+      $(".second").click(function() {
+        $(this).effect("shake");
+        secondLock = true;
+        console.log("Lock 1 = " + firstLock);
+        console.log("Lock 2 = " + secondLock);
+        console.log("Lock 3 = " + thirdLock);
+      });
+
+      $(".third").click(function() {
+        $(this).effect("shake");
+        secondLock = false;
+        thirdLock = true;
+        console.log("Lock 1 = " + firstLock);
+        console.log("Lock 2 = " + secondLock);
+        console.log("Lock 3 = " + thirdLock);
+      });
+
+      $(".btn-default").click(function() {
+        if (firstLock == true && secondLock == true && thirdLock == true) {
+          $('.prank').css({
+            'width': '25px',
+            'height': '25px',
+            'background-color': '#f9f9f9'
+          });
+        }
+      });
+    });
+  </script>
 
 </head>
 
@@ -155,7 +199,7 @@
           </div>
           <div class="panel-body">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-            <a href="#" class="btn btn-default">Learn More</a>
+            <span class="btn btn-default first">Learn More</span>
           </div>
         </div>
       </div>
@@ -166,7 +210,7 @@
           </div>
           <div class="panel-body">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-            <a href="#" class="btn btn-default">Learn More</a>
+            <span class="btn btn-default second">Learn More</span>
           </div>
         </div>
       </div>
@@ -177,12 +221,16 @@
           </div>
           <div class="panel-body">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-            <a href="#" class="btn btn-default">Learn More</a>
+            <span class="btn btn-default third">Learn More</span>
           </div>
         </div>
       </div>
     </div>
     <!--/.row -->
+
+    <a href="keepMeClosed.html">
+      <div class="prank"></div>
+    </a>
 
     <!--Footer -->
     <footer>
