@@ -1,3 +1,7 @@
+.row {
+    height: 210px;
+}
+
 .view {
     width: 300px;
     height: 200px;
@@ -58,7 +62,7 @@
 	transition: all 0.3s ease-in-out; 
 }
 .view .mask { 
-	background-color: rgba(146,96,91,0.3);
+	background-color: #66A5AD;
 	transform: translateX(-300px);
 	opacity: 1;
 	transition: all 0.4s ease-in-out; 
