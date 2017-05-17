@@ -19,7 +19,9 @@ h2 {
 }
 
 .jumbotron {
-    margin-top: 0px;
+    padding-top: 40px;
+    margin-top: auto;
+    height: 200px;
     background: #66A5AD center;
     color: white;
 }
@@ -49,7 +51,6 @@ h2 {
     position: relative
 }
 .view h2 {
-    text-transform: uppercase;
     color: #fff;
     text-align: center;
     position: relative;
