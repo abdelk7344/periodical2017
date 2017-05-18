@@ -11,6 +11,12 @@ body {
     background: #66A5AD center;
     color: white;
 }
+a,
+a:hover,
+a:active,
+a:visited {
+    color: white;
+}
 
 .divider {
     padding: 30px;
