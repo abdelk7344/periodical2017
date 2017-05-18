@@ -12,15 +12,6 @@ body {
     color: white;
 }
 
-
-/*body {*/
-
-
-/*    padding-top: 50px;*/
-
-
-/*}*/
-
 .divider {
     padding: 30px;
 }
@@ -76,8 +67,6 @@ footer {
     color: #66A5AD;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    /*background-color: #66A5AD;*/
-    /*box-shadow: 5px 5px #c4dfe6;*/
 }
 
 
@@ -121,15 +110,6 @@ footer {
     color: black;
 }
 
-
-/*#welcomeToHstat {*/
-
-
-/*    background-color: #07575B;*/
-
-
-/*}*/
-
 .col-sm-4 {
     height: 140px;
 }
@@ -151,7 +131,6 @@ footer {
 
 body {
     margin-top: 50px;
-    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .header-image {
