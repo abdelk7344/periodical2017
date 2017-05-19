@@ -8,15 +8,17 @@ h2 {
     margin: 40px;
 }
 
+body {
+    margin-top: 50px;
+}
+
 .blueBorder {
     border-top: 3px solid #66A5AD;
     width: 75%;
 }
 
 .jumbotron {
-    padding-top: 40px;
-    margin-top: auto;
-    height: 200px;
+    margin-top: 0px;
     background: #66A5AD center;
     color: white;
 }
@@ -41,7 +43,7 @@ h2 {
     position: absolute;
     overflow: hidden;
     top: 0;
-    left: 0
+    left: 0;
 }
 
 .view img {
