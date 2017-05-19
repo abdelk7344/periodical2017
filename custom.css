@@ -17,6 +17,9 @@ a:active,
 a:visited {
     color: white;
 }
+h2>a {
+    font-weight: 700;
+}
 
 .divider {
     padding: 30px;
