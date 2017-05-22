@@ -7,6 +7,11 @@ body {
 h2 {
     margin: 40px;
 }
+p {
+    text-indent: 50px;
+}
+
+
 
 .blueBorder {
     border-top: 3px solid #66A5AD;
@@ -181,6 +186,11 @@ body {
 .featurette-heading {
     font-size: 50px;
 }
+.indent{
+    text-indent: 50px;
+}
+
+
 
 #about,
 #services {
