@@ -8,14 +8,21 @@ h2 {
     margin: 40px;
 }
 
-p {
-    text-indent: 50px;
+/*p {*/
+/*    text-indent: 50px;*/
+/*}*/
+.lowSpace{
+    padding: 0 100px;
 }
-
+.centerMargin{
+    margin-top: 65px;
+}
 .lead.text-muted {
     text-align: center;
 }
-
+.materials{
+    margin: 0 0 0 150px
+}
 .blueBorder {
     border-top: 3px solid #66A5AD;
     width: 75%;
@@ -191,9 +198,9 @@ body {
     font-size: 50px;
 }
 
-.indent {
-    text-indent: 50px;
-}
+/*.indent {*/
+/*    text-indent: 50px;*/
+/*}*/
 
 #about,
 #services {
