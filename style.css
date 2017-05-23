@@ -7,11 +7,14 @@ body {
 h2 {
     margin: 40px;
 }
+
 p {
     text-indent: 50px;
 }
 
-
+.lead.text-muted {
+    text-align: center;
+}
 
 .blueBorder {
     border-top: 3px solid #66A5AD;
@@ -23,6 +26,7 @@ p {
     background: #66A5AD center;
     color: white;
 }
+
 .divider {
     padding: 30px;
 }
@@ -186,11 +190,10 @@ body {
 .featurette-heading {
     font-size: 50px;
 }
-.indent{
+
+.indent {
     text-indent: 50px;
 }
-
-
 
 #about,
 #services {
