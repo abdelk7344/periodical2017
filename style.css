@@ -15,11 +15,11 @@ h2 {
     padding: 0 100px;
 }
 .centerMargin{
-    margin-top: 45px;
+    margin-top: 20px;
 }
-.lead.text-muted {
-    text-align: center;
-}
+/*.lead.text-muted {*/
+/*    text-align: center;*/
+/*}*/
 .materials{
     margin: 0 0 0 150px
 }
@@ -320,4 +320,7 @@ footer {
         margin-bottom: 10px;
         margin-left: 0;
     }
+}
+ul{
+    display: inline-block;
 }
