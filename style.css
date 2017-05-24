@@ -321,3 +321,6 @@ footer {
         margin-left: 0;
     }
 }
+ul{
+    display: inline-block;
+}
