@@ -184,6 +184,7 @@ body {
 
 .featurette {
     overflow: hidden;
+    width:100%;
 }
 
 .featurette-image.pull-left {
