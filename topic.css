@@ -36,12 +36,19 @@ body {
     text-align: center;
     font-size: 17px;
     background: #66A5AD;
-    color:white;
+    color: white;
     box-shadow: 0px 1px 3px rgba(159, 141, 140, 0.5);
     margin: 10px 0 0 0;
     margin-bottom: 10px;
     padding: 10px;
-   
+}
+
+footer {
+    margin: 50px 0;
+    color: white;
+    padding: 25px;
+    background-color: #66A5AD;
+    box-shadow: 5px 5px #c4dfe6;
 }
 
 .author p {
