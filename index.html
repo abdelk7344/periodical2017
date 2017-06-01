@@ -19,51 +19,6 @@
   <link rel="stylesheet" href="custom.css">
   <link rel="stylesheet" href="nav.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
-  <script src="script.js"></script>
-  <script>
-    $(function() {
-      var firstLock = false;
-      var secondLock = false;
-      var thirdLock = false;
-      g
-      $(".first").click(function() {
-        $(this).effect("shake");
-        firstLock = true;
-        thirdLock = false;
-        console.log("Lock 1 = " + firstLock);
-        console.log("Lock 2 = " + secondLock);
-        console.log("Lock 3 = " + thirdLock);
-      });
-
-      $(".second").click(function() {
-        $(this).effect("shake");
-        secondLock = true;
-        console.log("Lock 1 = " + firstLock);
-        console.log("Lock 2 = " + secondLock);
-        console.log("Lock 3 = " + thirdLock);
-      });
-
-      $(".third").click(function() {
-        $(this).effect("shake");
-        secondLock = false;
-        thirdLock = true;
-        console.log("Lock 1 = " + firstLock);
-        console.log("Lock 2 = " + secondLock);
-        console.log("Lock 3 = " + thirdLock);
-      });
-
-      $(".btn-default").click(function() {
-        if (firstLock == true && secondLock == true && thirdLock == true) {
-          $('.prank').css({
-            'width': '25px',
-            'height': '25px',
-            'background-color': '#f9f9f9'
-          });
-        }
-      });
-    });
-  </script>
-
 </head>
 
 <body>
